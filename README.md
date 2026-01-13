@@ -1,3 +1,9 @@
+This code in this repo has been generated using Google's Gemini CLI (plain Gemini 2.5). The first commit is the result of invoking two prompts to Gemini
+> write a python program which reads mp3 files from a specified directory and analyzes their metadata for bad music tags
+...lots of CLI output on the way to a result
+> ok, now extend the script to include FLAC files as well as MP3 files
+...lots more CLI output
+
 # Music Tag Analyzer
 
 This Python script recursively scans a specified directory for MP3 and FLAC files and analyzes their metadata to find common problems like missing tags, generic placeholders, or formatting issues.
